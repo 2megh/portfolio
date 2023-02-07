@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>voice</title>
+  <link rel="stylesheet" href="styleshet.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+</head>
+
+<body>
+  <div class="outborder">
+    <div class="flex-container">
+      <img src="sicramalogo-removebg-preview.png" style="width:22%; height:40%">
+      <img src="google.png" style="width:6%; height:20%">
+      <img src="Facebook.png" style="width:4%; height:20%">
+      <img src="linkedin.png" style="width:0%; height:20%">
+      <img src="youtube.png" style="width:4%; height:20%">
+      <img src="linkedin.png" style="width:2%;height:20%">
+      <img src="googleadsense.png" style="width:3%; height:20%">
+      <p><span>Address: </span> Sicrama Infotech Pvt.Ltd<br>
+        Royal Rudra, Hingna Rd, Sant Gadge Nagar,<br>
+        Nagpur, Maharashtra 440016</p>
+    </div>
+
+    <header>
+      <h2>INVOICE</h2>
+
+    </header>
+    <div class="row">
+      <div class="col-xs-8">
+        <div class="TO">
+          <div>To,</div>
+          <input type="text" id="lname" name="lname" value=""
+            style="border-block: dotted;border-block-start: none;border-left-style: hidden;border-right-style: hidden;"><br>
+          <input type="text" id="lname" name="lname" value=""
+            style="border-block: dotted;border-block-start: none;border-left-style: hidden;border-right-style: hidden;">
+        </div>
+      </div>
+      <div class="col-xs-4 text-right">
+        <table class="table">
+          <tr>
+            <th colspan="2">TENTATIVE QUOTATION</th>
+          </tr>
+          <tr>
+            <td>REF.NO.</td>
+            <td>2022-2023/DM/BHREA/</td>
+          </tr>
+          <tr>
+            <td>DATE</td>
+            <td><input type="date" id="date" placeholder="8/23/2019" class=" date1" required></td>
+          </tr>
+        </table>
+      </div>
+    </div>
+    <br>
+    <div>
+      <div>ZA</div>
+      <div style="font-weight: bold;">Payment Receipt:-</div>
+      <select name="payment_type" id="payment_type" required>
+        <option value="Cash">Cash</option>
+        <option value="upi">UPI</option>
+        <option value="Cheque">Cheque</option>
+        <option value="Other">Other</option>
+      </select><br><br>
+
+      <table class="table inventory">
+        <thead>
+          <tr>
+            <th><span contenteditable>SR.NO.</span></th>
+            <th><span contenteditable>PARTICULARS</span></th>
+            <th><span contenteditable>QUANTITY/UNIT</span></th>
+            <th><span contenteditable>AMOUNT</span></th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td><a class="cut">-</a><span contenteditable>1</span></td>
+            <td><span contenteditable>Developer</span></td>
+            <td><span contenteditable></span></td>
+            <td><span data-prefix>Rs.</span><span>600.00</span></td>
+          </tr>
+        </tbody>
+      </table>
+      <a class="add">+</a>
+      <table class="table balance">
+        <tr>
+          <th><span contenteditable>Total</span></th>
+          <td><span data-prefix>Rs.</span><span>600.00</span></td>
+        </tr>
+        <tr>
+          <th><span contenteditable>Amount Receive</span></th>
+          <td><span data-prefix>Rs.</span><span contenteditable>0.00</span></td>
+        </tr>
+        <tr>
+          <th><span contenteditable>Amount balanced</span></th>
+          <td><span data-prefix>Rs.</span><span>600.00</span></td>
+        </tr>
+      </table>
+
+      <div class="col-sm-2" style="font-weight: bold; "> Amount in Words:</div>
+      <div class="col-sm-10">
+        <input type="text" id="lname" name="lname" value=""
+          style="border-block: dotted;border-block-start: none;border-left-style: hidden;border-right-style: hidden; width:100%"><br>
+      </div>
+      <div class="col-sm-1" style="font-weight: bold; ">Notes:</div>
+      <div class="col-sm-11">
+        <input type="text" id="lname" name="lname" value=""
+          style="border-block: dotted;border-block-start: none;border-left-style: hidden;border-right-style: hidden; width:100%"><br>
+      </div>
+      <input type="text" id="lname" name="lname" value=""
+        style="border-block: dotted;border-block-start: none;border-left-style: hidden;border-right-style: hidden; width:100%"><br>
+
+      <div class="Signature">
+        <div class="col-sm-3" style="text-align: center; ">
+          <h4>Sicrama Infotech Pvt. Ltd</h4>
+          <h4>Mr.Sandip Zole</h4>
+          <h4>Accountant</h4>
+        </div>
+        <div class="col-sm-9" style="text-align: end;">
+          <h4>Sicrama Infotech Pvt. Ltd</h4>
+          <div style="font-size: 18px;padding-right: 32px;">Mr.Vishal Mude</div>
+          <div style="font-size: 18px; padding-right: 75px;">BDM</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
